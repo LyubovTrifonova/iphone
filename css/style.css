@@ -146,3 +146,20 @@ ul{
 .color-item p{
     margin: 0;
 }
+
+.contacts-inner{
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+.contacts-form{
+    width: 100%;
+    padding: 140px 100px;
+}
+
+.contacts-title{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
