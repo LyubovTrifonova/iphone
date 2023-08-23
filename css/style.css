@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter';
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
@@ -92,7 +92,8 @@ ul{
     padding: 90px 0 150px;
 }
 
-.new-title{
+.new-title,
+.color-title{
     margin: 0 0 50px;
     text-transform: uppercase;
     text-align: center;
@@ -122,16 +123,26 @@ ul{
     margin-left: 190px;
 }
 
-.color-title{
-    margin: 0 0 50px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #717171;
-    font-size: 32px;
-    line-height: 39px;
-    font-weight: 700px;
+.color{
+    padding-bottom: 150px;
 }
 
-.color-info{
+.color-list{
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color-item img{
+    margin-bottom: 20px;
+}
+
+.color-item h3{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.color-item p{
+    margin: 0;
 }
