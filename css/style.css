@@ -115,6 +115,11 @@ ul{
     max-width: 560px;
     font-size: 20px;
     line-height: 26px;
+    display: block;
+}
+
+.images-new{
+    margin-left: 190px;
 }
 
 .color-title{
