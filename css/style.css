@@ -51,6 +51,8 @@ ul{
     flex-grow: 1;
     flex-basis: 0;
     text-align: right;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .menu-item{
@@ -203,3 +205,20 @@ ul{
     cursor: pointer;
 }
 
+.footer{
+    background-color: #0A0A0A;
+
+}
+
+.footer-link{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.footer-inner{
+    color: #717171;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
